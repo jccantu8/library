@@ -1,0 +1,77 @@
+/* Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+  
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+  
+ol, ul {
+  list-style: none;
+}
+  
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/******************/
+
+body {
+  background-color: #778899;
+}
+
+table {
+  border: 1px solid none;
+  border-collapse: collapse;
+  width: 70%;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  background-color: lightgrey;
+}
+
+th, td {
+  padding: 15px;
+}
+
+button {
+  background-color: grey;
+  border: none;
+  margin-left: 1px;
+  margin-right: 1px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+.newBtn {
+  border-style: solid;
+  border-color: black;
+  margin: auto;
+  margin-top: 5%;
+  display: block;
+}
+
+.title  {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
